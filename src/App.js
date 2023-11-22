@@ -6,7 +6,7 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Skills from './components/Skills.jsx';
 import Works from './components/Works.jsx';
-import Contact from './components/Navbar.jsx';
+import Contact from './components/Contact.jsx';
 
 
 
@@ -32,7 +32,7 @@ function App() {
       <About content={data[1]}/>
       <Skills content={data[2]}/>
       <Works content={data[3]}/>
-      <Contact />
+      <Contact/>
     </div>
   );
 }

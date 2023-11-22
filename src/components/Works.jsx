@@ -29,12 +29,12 @@ const Works = ({content}) => {
                         {work.work_description}
                     </p>
                     <div className="pt-8 text-center">
-                        <a href={work.github_url}>
+                        <a href={work.demo_url} target="_blank">
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                             Demo
                         </button>
                         </a>
-                        <a href={work.demo_url}>
+                        <a href={work.github_url} target="_blank">
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                             Code
                         </button>
